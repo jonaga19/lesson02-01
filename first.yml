@@ -20,7 +20,7 @@ jobs:
           name: Step two
           run: "Get-ChildItem Env: | Sort-Object Name"
       job3:
-            name: First Job
+            name: Thrid Job
             runs-on: self-hosted
             steps:
               - name: Step one
