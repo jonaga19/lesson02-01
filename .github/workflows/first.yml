@@ -9,7 +9,5 @@ jobs:
       steps:
         - name: Step one
           uses: actions/checkout@v2
-        - name Step two
+        - name: Step two
       run: env | sort
-
-
