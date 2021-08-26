@@ -4,10 +4,11 @@ on: push
 
 jobs:
     job1:
-      name: First Job
+      name: First job
       runs-on: self-hosted
       steps:
         - name: Step one
           uses: actions/checkout@v2
         - name: Step two
-      run: env | sort
+          run: env | sort
+     
